@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "c1e783f6-191c-4d30-ae39-e8c182d99fad",
+		"name": "Alura - ORM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2957976"
+	},
+	"item": [
+		{
+			"name": "pegaTodasAsPessoas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pessoas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pessoas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pagaUmaPessoa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pessoas/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pessoas",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "criaUmaPessoa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Rebeca Costa\",\n    \"ativo\": false,\n    \"email\": \"rebeca@rebeca.com\",\n    \"role\": \"estudante\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pessoas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pessoas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "atualizaUmaPessoa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Sandra Gomes Lopes\",\n    \"email\": \"chico@chico.com\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pessoas/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pessoas",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apagaUmaPessoa",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Rebeca Costa\",\n    \"ativo\": false,\n    \"email\": \"rebeca@rebeca.com\",\n    \"role\": \"estudante\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pessoas/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pessoas",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
