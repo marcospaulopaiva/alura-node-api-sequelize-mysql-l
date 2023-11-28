@@ -12,7 +12,7 @@ module.exports = {
 				updatedAt: new Date()
 			},
 			{
-				nome: 'Marcos Cintra',
+				nome: 'Marcos Paulo',
 				ativo: true,
 				email: 'marcos@marcos.com',
 				role: 'estudante',
@@ -36,15 +36,15 @@ module.exports = {
 				updatedAt: new Date()
 			},
 			{
-				nome: 'Paula Morais',
+				nome: 'Paulo Morais',
 				ativo: true,
-				email: 'paula@paula.com',
+				email: 'paulo@paulo.com',
 				role: 'docente',
 				createdAt: new Date(),
 				updatedAt: new Date()
 			},
 			{
-				nome: 'Sergio Lopes',
+				nome: 'Chico Lopes',
 				ativo: true,
 				email: 'sergio@sergio.com',
 				role: 'docente',
